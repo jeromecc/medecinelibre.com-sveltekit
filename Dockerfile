@@ -4,6 +4,7 @@ WORKDIR /app
 COPY package.json package.json
 COPY package-lock.json package-lock.json
 EXPOSE 3000
+RUN npm install npm@latest -g
 RUN npm install
 COPY . .
 ENV HOST=127.0.0.1
