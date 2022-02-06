@@ -11,7 +11,7 @@ ENV PROTOCOL_HEADER=x-forwarded-proto
 ENV HOST_HEADER=x-forwarded-host
 RUN npm cache clean --force
 COPY package.json package.json
-RUN npm install
+RUN npm install --also=dev
 COPY . .
 
 RUN npm run build
