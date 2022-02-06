@@ -1,13 +1,10 @@
 version: '3.8'
 services:
-  web:
+  nodeserver:
     env_file:
       - .env
     build:
-      context: ./
-    volumes:
-      - .:/app
-    command: node build/index.js
+      context: .
     ports:
       - "3000:3000"
     environment:
