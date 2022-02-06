@@ -1,18 +1,16 @@
-FROM node:14-alpine as base
+FROM node:14-alpine
 
 WORKDIR /app
 COPY package.json package.json
 COPY package-lock.json package-lock.json
 EXPOSE 3000
-
-FROM base as production
-ENV NODE_ENV=production
-RUN npm ci
+RUN npm install
 COPY . .
-CMD ["npm", "run", "build"]
-
-#FROM base as dev
-#ENV NODE_ENV=development
-#RUN npm install
-#COPY . .
-#CMD ["npm", "run", "dev"]
+ENV HOST=127.0.0.1
+ENV PORT=3000
+ENV ORIGIN=https://medecinelibre.com
+ENV PROTOCOL_HEADER=x-forwarded-proto
+ENV HOST_HEADER=x-forwarded-host
+RUN npm run build
+ENV NODE_ENV=production
+CMD ["node", "build/server.js"]
