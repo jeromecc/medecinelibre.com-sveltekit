@@ -9,7 +9,7 @@ FROM base as production
 ENV NODE_ENV=production
 RUN npm ci
 COPY . .
-CMD ["node", "build/index.js"]
+CMD ["npm", "run", "build"]
 
 FROM base as dev
 ENV NODE_ENV=development
