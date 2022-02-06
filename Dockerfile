@@ -11,9 +11,8 @@ ENV PROTOCOL_HEADER=x-forwarded-proto
 ENV HOST_HEADER=x-forwarded-host
 RUN npm cache clean --force
 COPY package.json package.json
+COPY package-lock.json package-lock.json
 RUN npm install --also=dev
 COPY . .
-
 RUN npm run build
-ENV NODE_ENV=production
-CMD ["node", "build/server.js"]
+CMD ["NODE_ENV=production", "node", "build/server.js"]
