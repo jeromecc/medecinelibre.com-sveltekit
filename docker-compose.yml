@@ -5,7 +5,6 @@ services:
       - .env
     build:
       context: ./
-      target: production
     volumes:
       - .:/app
     command: node build/index.js
