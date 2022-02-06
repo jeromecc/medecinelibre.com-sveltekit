@@ -13,13 +13,13 @@ const config = {
 			out: 'build',
 			precompress: false,
 			env: {
-				host: 'HOST',
-				port: 'PORT',
-				origin: 'ORIGIN',
-				headers: {
-					protocol: 'PROTOCOL_HEADER',
-					host: 'HOST_HEADER'
-				}
+				//host: 'HOST',
+				//port: 'PORT',
+				origin: 'ORIGIN'//,
+				//headers: {
+				//	protocol: 'PROTOCOL_HEADER',
+				//	host: 'HOST_HEADER'
+				//}
 			}
 		}),
 	}
