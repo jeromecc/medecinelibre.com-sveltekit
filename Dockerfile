@@ -5,7 +5,7 @@ COPY package.json package.json
 COPY package-lock.json package-lock.json
 EXPOSE 3000
 RUN npm install npm@latest -g
-RUN npm install
+RUN npm ci
 COPY . .
 ENV HOST=127.0.0.1
 ENV PORT=3000
