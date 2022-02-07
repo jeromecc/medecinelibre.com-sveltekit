@@ -44,7 +44,7 @@
 						><i class="bi bi-linkedin" /></NavLink
 					>
 				</NavItem>
-				<Dropdown nav inNavbar>
+				<!--Dropdown nav inNavbar>
 					<DropdownToggle nav caret>Options</DropdownToggle>
 					<DropdownMenu end>
 						<DropdownItem>Option 1</DropdownItem>
@@ -52,7 +52,7 @@
 						<DropdownItem divider />
 						<DropdownItem>Reset</DropdownItem>
 					</DropdownMenu>
-				</Dropdown>
+				</Dropdown-->
 			</Nav>
 		</Collapse>
 	</Navbar>

@@ -31,6 +31,6 @@ COPY --from=builder /usr/src/app/node_modules ./node_modules
 
 # our app is running on port 3000 within the container, so need to expose it
 EXPOSE 3000
-
+ENV ORIGIN=https://medecinelibre.com
 # the command that starts our app
 CMD ["node", "index.js"]

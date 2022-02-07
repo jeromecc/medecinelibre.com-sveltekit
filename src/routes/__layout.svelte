@@ -52,7 +52,7 @@
 <Header />
 
 <main>
-	<Container class="pt-2">
+	<Container>
 		<slot />
 	</Container>
 </main>
@@ -60,7 +60,7 @@
 <footer class="footer mx-auto py-3">
 	<div class="container-fluid">
 		<div class="text-center">
-			<span class="text-muted"><a href="https://medecinelibre.com">medecinelibre.com</a></span>
+			<span class="text-muted"><a href="/">medecinelibre.com</a></span>
 		</div>
 	</div>
 </footer>
