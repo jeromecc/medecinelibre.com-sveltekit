@@ -14,7 +14,11 @@
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
 	import { Container } from 'sveltestrap';
+
+  import { Styles } from 'sveltestrap';
 </script>
+
+<Styles />
 
 <head>
 	<!-- Required meta tags -->
@@ -23,20 +27,17 @@
 
 	<!-- The page supports both dark and light color schemes,
 			 and the page author prefers / default is light. -->
-	<meta name="color-scheme" content="light dark" />
 
 	<!-- Replace the Bootstrap CSS with the
 			 Bootstrap-Dark Variant CSS -->
-	<link
+	<!--link
 		href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-dark.min.css"
 		rel="stylesheet"
-	/>
+	/-->
 
-	<title>Hello, world!</title>
+	<title>Médecine Libre</title>
 
-	<!-- Optional Meta Theme Color is also supported on Safari and Chrome -->
-	<meta name="theme-color" content="#111111" media="(prefers-color-scheme: light)" />
-	<meta name="theme-color" content="#eeeeee" media="(prefers-color-scheme: dark)" />
+
 	<!--link
 		href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 		rel="stylesheet"

@@ -5,7 +5,10 @@
 <script lang="ts">
 	import LL from '../i18n/i18n-svelte';
 	import { Button, Col, Row } from 'sveltestrap';
+	import SEO from '$lib/components/SEO/index.svelte';
 </script>
+
+<SEO />
 
 <svelte:head>
 	<title>Home</title>
@@ -34,8 +37,8 @@
 					Le gentil robot Twitter <a href="https://twitter.com/doctoctocbot">@doctoctocbot</a>
 					soutient depuis 2017 la communauté médicale d'entraide
 					<a href="https://doctoctoc.net">#doctoctoc</a>. Aujourd'hui, il est accompagné de 5 autres
-					robots médicaux qui regroupent plus de 8000 pros de santé (médecins, sages-femmes,
-					pharmaciens, infirmières, kinés, étudiants en médecine) et étudiants en santé au sein du
+					robots médicaux qui regroupent 8400 pros de santé et étudiants en santé (médecins, <a href="https://twitter.com/sagefemmebot">sages-femmes</a>,
+					<a href="https://twitter.com/pharmatoctocbot">pharmaciens</a>, <a href="https://twitter.com/idetoctoc">infirmières</a>, <a href="https://twitter.com/kinetoctoc">kinésithérapeutes</a>, <a href="https://twitter.com/ecnitoctoc">étudiants en médecine</a>) au sein du
 					réseau SantéTocToc .
 				</p>
 			</div>
@@ -151,14 +154,39 @@
 				solutions numériques libres pour:
 			</p>
 			<ul class="list-group list-group-flush">
-				<li class="list-group-item">
-					Professionnels de santé libéraux (cabinet individuel & cabinet de groupe)
+				<li class="list-group-item d-flex justify-content-between align-items-start">
+					<div class="ms-2 me-auto">
+						<div class="fw-bold">Professionnels de santé libéraux</div>
+						Cabinets individuels & cabinets de groupe
+					</div>
 				</li>
-				<li class="list-group-item">Maisons médicales</li>
-				<li class="list-group-item">Maisons de santé pluridisciplinaires (MSP)</li>
-				<li class="list-group-item">Communautés professionnelles territoriales de santé (CPTS)</li>
-				<li class="list-group-item">Cliniques</li>
-				<li class="list-group-item">Hôpitaux</li>
+
+				<li class="list-group-item d-flex justify-content-between align-items-start">
+					<div class="ms-2 me-auto">
+						<div class="fw-bold">Maisons médicales</div>
+					</div>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-start">
+					<div class="ms-2 me-auto">
+						<div class="fw-bold">Maisons de santé pluriprofessionnelles (MSP)</div>
+						<a href="https://msp-vedene.fr">Maison de santé de Vedène</a>
+					</div>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-start">
+					<div class="ms-2 me-auto">
+						<div class="fw-bold">Communautés professionnelles territoriales de santé (CPTS)</div>
+					</div>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-start">
+					<div class="ms-2 me-auto">
+						<div class="fw-bold">Cliniques</div>
+					</div>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-start">
+					<div class="ms-2 me-auto">
+						<div class="fw-bold">Hôpitaux</div>
+					</div>
+				</li>
 			</ul>
 		</div>
 		<div class="card-footer text-center">

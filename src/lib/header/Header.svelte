@@ -9,6 +9,7 @@
 		Nav,
 		NavItem,
 		NavLink,
+		Styles,
 		Dropdown,
 		DropdownToggle,
 		DropdownMenu,
@@ -22,8 +23,11 @@
 	}
 </script>
 
+
+
 <header>
-	<Navbar expand="md">
+	<Styles />
+	<Navbar color="white" light expand="lg">
 		<NavbarBrand href="/">Médecine Libre</NavbarBrand>
 		<NavbarToggler on:click={() => (isOpen = !isOpen)} />
 		<Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
