@@ -48,6 +48,11 @@
 						><i class="bi bi-linkedin" /></NavLink
 					>
 				</NavItem>
+				<NavItem>
+					<NavLink rel="me" href="https://mastodon.xyz/@medecinelibre"
+						><i class="bi bi-mastodon" /></NavLink
+					>
+				</NavItem>
 				<!--Dropdown nav inNavbar>
 					<DropdownToggle nav caret>Options</DropdownToggle>
 					<DropdownMenu end>
