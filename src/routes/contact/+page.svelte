@@ -1,5 +1,5 @@
 <script context="module">
-	import { browser, dev } from '$app/env';
+	import { browser, dev } from '$app/environment';
 
 	// we don't need any JS on this page, though we'll load
 	// it in dev so that we get hot module replacement...
@@ -23,7 +23,7 @@
 	<p>SIRET: 529 455 719 00045</p>
 	<address>
 		<i class="bi bi-envelope me-1"></i><a href="mailto:info@medecinelibre.com">info@medecinelibre.com</a><br />
-		<i class="bi bi-telephone me-1"></i><a href="tel:+33970444541">+33 970 444 541</a><br />
+		<i class="bi bi-telephone me-1"></i><a href="tel:+339772154350">+33 977 215 435</a><br />
 		134, rue de Valenciennes<br />
 		59500 Douai<br />
 		France

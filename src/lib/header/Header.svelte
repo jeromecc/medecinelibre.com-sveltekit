@@ -49,7 +49,7 @@
 					>
 				</NavItem>
 				<NavItem>
-					<NavLink rel="me" href="https://mastodon.xyz/@medecinelibre"
+					<NavLink rel="me" href="https://mastodon.medica.im/@medecinelibre"
 						><i class="bi bi-mastodon" /></NavLink
 					>
 				</NavItem>

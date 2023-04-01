@@ -90,8 +90,7 @@
     linkedinProfile,
     telegramUsername,
     tiktokUsername,
-    twitterUsername,
-    featuredImage,
+    twitterUsername
   };
   const twitterProps = {
     article,

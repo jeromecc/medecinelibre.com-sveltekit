@@ -1,7 +1,3 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
 <script lang="ts">
 	import LL from '../i18n/i18n-svelte';
 	import { Button, Col, Row } from 'sveltestrap';
