@@ -7,7 +7,7 @@
 	<p>SIRET: 529 455 719 00045</p>
 	<address>
 		<i class="bi bi-envelope me-1"></i><a href="mailto:info@medecinelibre.com">info@medecinelibre.com</a><br />
-		<i class="bi bi-telephone me-1"></i><a href="tel:+339772154350">+33 977 215 435</a><br />
+		<i class="bi bi-telephone me-1"></i><a href="tel:+33977215435">+33 977 215 435</a><br />
 		134, rue de Valenciennes<br />
 		59500 Douai<br />
 		France
